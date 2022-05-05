@@ -1,16 +1,19 @@
 <template>
   <div>
-    <Teste />
-    <TesteDois />
-    <Tutorial />
+    <Header />
   </div>
 </template>
 
 <script>
-import Teste from "../components/Teste.vue";
 export default {
   name: "IndexPage",
-
-  Teste,
 };
 </script>
+
+<style>
+body {
+  background-color: black;
+  font-family: "DM Sans", sans-serif;
+  color: #dfe3e4;
+}
+</style>
