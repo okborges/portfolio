@@ -2,13 +2,17 @@
   <div class="max-w-5xl mx-auto">
     <div class="flex items-center justify-between pt-12">
       <a href="/" class="logo">Borges</a>
+
       <div class="flex items-center space-x-7">
-        <div class="nav space-x-4">
-          <a href="/">Sobre</a>
-          <a>Projetos</a>
-          <a>Contato</a>
-        </div>
-        <span class="linha-vertical"></span>
+        <nav class="hidden sm:flex">
+          <ul class="nav space-x-4 flex">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+
+        <span class="linha-vertical hidden sm:block"></span>
         <div class="flex items-center space-x-4">
           <a href="https://github.com/okborges" target="_blank"
             ><svg
@@ -39,6 +43,13 @@
         </div>
       </div>
     </div>
+    <nav class="pt-2 sm:hidden">
+      <ul class="nav space-x-4 flex">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Projetos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
   </div>
 </template>
 
@@ -64,8 +75,10 @@ export default {};
   font-weight: 500;
 }
 
-.nav:hover {
+.nav a:hover {
   cursor: pointer;
+  color: #dd2c00;
+  transition-duration: 0.3s;
 }
 
 .linha-vertical {
