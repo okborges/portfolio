@@ -1,12 +1,19 @@
 <template>
-  <div>
-    <Main />
+  <div class="px-8">
+    <TheHeader />
+    <MainPrincipal />
+    <TheFooter />
   </div>
 </template>
 
 <script>
+import MainPrincipal from "~/components/MainPrincipal.vue";
+import MainSecundaria from "~/components/MainSecundaria.vue";
+import TheHeader from "~/components/TheHeader.vue";
+import TheFooter from "~/components/TheFooter.vue";
 export default {
   name: "IndexPage",
+  components: { MainPrincipal, MainSecundaria, TheHeader, TheFooter },
 };
 </script>
 
