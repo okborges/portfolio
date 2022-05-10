@@ -5,13 +5,14 @@
         <h1 class="text-white font-bold mb-6 text-3xl ms:text-4xl md:text-5xl">
           Oi, sou o Borges :)
         </h1>
-        <p class="text-xl mb-6 md:pr-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          rerum voluptatum sit dicta, quia fuga quas repellat nisi, nam, quis id
-          laborum tenetur aut et ipsam suscipit ipsum nemo assumenda.
+        <p class="sm:text-xl mb-6 md:pr-6">
+          Me chamo Rafael Borges , um Desenvolvedor e Web designer localizado em
+          São Bernardo - SP, com uma grande paixão em simplificar problemas.
+          Cursando Análise e Desenvolvimentos de Sistemas na UNINOVE.
         </p>
-        <p class="mb-8 md:pr-6">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        <p class="sm:text-lg mb-8 md:pr-6">
+          No meu tempo livre gosto de fotografar, andar de patins e consumir
+          arte.
         </p>
         <div class="flex justify-center md:block">
           <button class="btn-projetos">
