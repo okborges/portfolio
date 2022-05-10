@@ -1,14 +1,14 @@
 <template>
-  <div class="max-w-5xl mx-auto">
+  <header class="max-w-6xl mx-auto">
     <div class="flex items-center justify-between pt-12">
       <a href="/" class="logo">Borges</a>
 
       <div class="flex items-center space-x-7">
         <nav class="hidden sm:flex">
-          <ul class="nav space-x-4 flex">
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul class="nav space-x-4 flex font-bold">
+            <li><a href="#" class="p-2">Sobre</a></li>
+            <li><a href="#" class="p-2">Projetos</a></li>
+            <li><a href="#" class="p-2">Contato</a></li>
           </ul>
         </nav>
 
@@ -50,7 +50,7 @@
         <li><a href="#">Contato</a></li>
       </ul>
     </nav>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -71,14 +71,10 @@ export default {};
   transition-duration: 0.3s;
 }
 
-.nav {
-  font-weight: 500;
-}
-
 .nav a:hover {
   cursor: pointer;
   color: #dd2c00;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 }
 
 .linha-vertical {
