@@ -6,13 +6,25 @@
           Oi, sou o Borges :)
         </h1>
         <p class="sm:text-xl mb-6 md:pr-6">
-          Me chamo Rafael Borges , um Desenvolvedor e Web designer localizado em
-          São Bernardo - SP, com uma grande paixão em simplificar problemas.
-          Cursando Análise e Desenvolvimentos de Sistemas na UNINOVE.
+          Me chamo
+          <a
+            href="https://linkedin.com/in/okborges"
+            target="_blank"
+            class="texto-azul"
+            >Rafael Borges</a
+          >
+          , um Desenvolvedor e Web designer localizado em São Bernardo - SP, com
+          uma grande paixão em simplificar problemas. Cursando Análise e
+          Desenvolvimentos de Sistemas na UNINOVE.
         </p>
         <p class="sm:text-lg mb-8 md:pr-6">
-          No meu tempo livre gosto de fotografar, andar de patins e consumir
-          arte.
+          No meu tempo livre gosto de
+          <a
+            href="https://www.instagram.com/okborges/"
+            target="_blank"
+            class="texto-azul"
+            >fotografar</a
+          >, andar de patins e consumir arte.
         </p>
         <div class="flex justify-center md:block">
           <button class="btn-projetos">
@@ -30,11 +42,13 @@
         width="330"
       />
     </div>
+    <AboutMe />
   </main>
 </template>
 
 <script>
-export default {};
+import AboutMe from "./AboutMe.vue";
+export default { components: { AboutMe } };
 </script>
 
 <style scoped>
@@ -50,5 +64,15 @@ export default {};
 .cafe:hover {
   color: #dd2c00;
   transition-duration: 0.2s;
+}
+
+.texto-azul {
+  color: #ff3d00;
+  border-bottom: 1px solid #b9bcbd;
+  cursor: pointer;
+}
+
+.texto-azul:hover {
+  border-bottom: 1px solid #ff3d00;
 }
 </style>
