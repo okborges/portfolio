@@ -20,7 +20,8 @@ export default {
 <style>
 body {
   background-color: black;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #dfe3e4;
 }
+
 </style>

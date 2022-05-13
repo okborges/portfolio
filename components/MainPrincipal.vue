@@ -1,11 +1,13 @@
 <template>
-  <main class="py-12">
-    <div class="flex max-w-6xl mx-auto justify-between items-center">
+  <main>
+    <div
+      class="flex max-w-6xl mx-auto justify-between items-center py-9 sm:py-12"
+    >
       <section class="md:w-7/12">
-        <h1 class="text-white font-bold mb-6 text-3xl ms:text-4xl md:text-5xl">
+        <h1 class="text-white font-bold mb-6 text-2xl ms:text-4xl md:text-5xl">
           Oi, sou o Borges :)
         </h1>
-        <p class="sm:text-xl mb-6 md:pr-6">
+        <p class="leading-8 sm:leading-8 sm:text-xl mb-6 md:pr-6">
           Me chamo
           <a
             href="https://linkedin.com/in/okborges"
@@ -26,12 +28,12 @@
             >fotografar</a
           >, andar de patins e consumir arte.
         </p>
-        <div class="flex justify-center md:block">
+        <div class="flex mt-8 md:block">
           <button class="btn-projetos">
-            <a href="" class="text-lg font-semibold">Ver projetos</a>
+            <a href="" class="sm:text-lg font-semibold">Ver projetos</a>
           </button>
           <button>
-            <a href="" class="text-lg font-semibold p-8 cafe">Cafezinho?</a>
+            <a href="" class="sm:text-lg font-semibold p-8 cafe">Cafezinho?</a>
           </button>
         </div>
       </section>
