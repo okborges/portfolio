@@ -4,10 +4,12 @@
       class="flex max-w-6xl mx-auto justify-between items-center py-9 sm:py-12"
     >
       <section class="md:w-7/12">
-        <h1 class="text-white font-bold mb-6 text-2xl ms:text-4xl md:text-5xl">
+        <h1
+          class="italico text-white font-bold mb-6 text-2xl ms:text-4xl md:text-5xl"
+        >
           Oi, sou o Borges :)
         </h1>
-        <p class="leading-8 sm:leading-8 sm:text-xl mb-6 md:pr-6">
+        <p class="leading-8 mb-6 sm:leading-8 sm:text-xl md:pr-6">
           Me chamo
           <a
             href="https://linkedin.com/in/okborges"
@@ -76,5 +78,10 @@ export default { components: { AboutMe } };
 
 .texto-azul:hover {
   border-bottom: 1px solid #ff3d00;
+}
+
+.italico {
+  font-family: "DM Serif Display";
+  font-style: italic;
 }
 </style>
