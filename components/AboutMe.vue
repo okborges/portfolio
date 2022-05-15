@@ -3,13 +3,9 @@
     <div class="md:w-1/2 md:pr-6">
       <h2 class="text-3xl font-bold pb-6 text-white">Sobre mim</h2>
       <p class="text-lg pb-6 leading-8 sm:leading-8">
-        I'm a 21-year-old entrepreneur who loves to design and build
-        high-quality solutions. I know you'll love working with me as I design
-        and build professional-grade outcomes. My passion is simplifying data so
-        that others can see it clearly. I launched my first business in March
-        2020, then sold it in August 2021.
+       Sou um empreendedor de 24 anos que adora projetar e construir soluções de alta qualidade. Você vai amar trabalha comigo, sempre prezo pelo ótimo atendimento, qualidade de entrega a nível profissional e uma excepcional relação com o cliente.
       </p>
-      <p class="text-base">I also have a 1 year old Pomeranian called Chico.</p>
+      <p class="text-base leading-8">Também gosto de praticar esportes radicais.</p>
     </div>
     <div class="pt-8 md:pt-0">
       <h2 class="text-3xl font-bold pb-6 text-white">Eu tenho experiencia com</h2>
