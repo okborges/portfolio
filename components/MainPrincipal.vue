@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div
+    <section
       class="flex max-w-6xl mx-auto justify-between items-center py-9 sm:py-12"
     >
       <section class="md:w-7/12">
@@ -45,7 +45,7 @@
         alt=""
         width="330"
       />
-    </div>
+    </section>
     <AboutMe />
   </main>
 </template>
