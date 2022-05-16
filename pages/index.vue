@@ -1,8 +1,13 @@
 <template>
-  <div class="px-8">
-    <TheHeader />
-    <MainPrincipal />
-    <TheFooter />
+  <div>
+    <div class="mx-8">
+      <TheHeader />
+      <MainPrincipal />
+      <TheFooter />
+    </div>
+    <div class="laranjinha text-center">
+      <p>Copyright © 2022 okborges. Todos os direitos reservados</p>
+    </div>
   </div>
 </template>
 
@@ -23,5 +28,7 @@ body {
   font-family: "Inter", sans-serif;
   color: #dfe3e4;
 }
-
+.laranjinha {
+  background-color: #dd2c00;
+}
 </style>
