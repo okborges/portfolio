@@ -1,7 +1,7 @@
 <template>
   <main>
     <section
-      class="flex max-w-6xl mx-auto justify-between items-center py-9 sm:py-12"
+      class="flex max-w-6xl mx-auto justify-between items-center my-9 sm:my-12"
     >
       <section class="md:w-7/12">
         <h1
@@ -47,12 +47,14 @@
       />
     </section>
     <AboutMe />
+    <OqueFaco />
   </main>
 </template>
 
 <script>
 import AboutMe from "./AboutMe.vue";
-export default { components: { AboutMe } };
+import OqueFaco from "./OqueFaco.vue";
+export default { components: { AboutMe, OqueFaco } };
 </script>
 
 <style scoped>

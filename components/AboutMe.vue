@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-6xl mx-auto justify-between mt-8 md:flex sm:mt-24">
+  <section class="max-w-6xl mx-auto justify-between mt-8 md:flex sm:mt-32">
     <div class="md:w-1/2 md:pr-6">
       <h2 class="italico pb-6 text-white text-2xl sm:text-3xl">Sobre mim</h2>
       <p class="pb-6 leading-8 sm:leading-8 sm:text-lg">
