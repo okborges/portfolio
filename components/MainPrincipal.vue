@@ -39,22 +39,29 @@
           </button>
         </div>
       </section>
-      <img
-        class="hidden md:block md:rounded-lg"
-        src="/sitezao.webp"
-        alt=""
-        width="330"
-      />
+      <div>
+        <img
+          class="hidden md:block md:rounded-lg"
+          src="/sitezao.webp"
+          alt=""
+          width="330"
+        />
+        <p class="text-center text-xs italic pt-5">
+          Não é muito, mas é trabalho honesto
+        </p>
+      </div>
     </section>
     <AboutMe />
     <OqueFaco />
+    <Projetos />
   </main>
 </template>
 
 <script>
 import AboutMe from "./AboutMe.vue";
 import OqueFaco from "./OqueFaco.vue";
-export default { components: { AboutMe, OqueFaco } };
+import Projetos from "./Projetos.vue";
+export default { components: { AboutMe, OqueFaco, Projetos } };
 </script>
 
 <style scoped>

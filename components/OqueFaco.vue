@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-6xl mx-auto mt-32">
+  <section class="max-w-6xl mx-auto mt-24">
     <h2 class="italico pb-12 text-white text-2xl sm:text-3xl">O que eu faço</h2>
     <div class="space-y-10 md:grid md:grid-cols-3 md:gap-16 md:space-y-0">
       <div>
