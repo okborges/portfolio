@@ -32,10 +32,17 @@
         </p>
         <div class="flex mt-8 md:block">
           <button class="btn-projetos">
-            <a href="" class="sm:text-lg font-semibold">Ver projetos</a>
+            <a href="#projetos" class="sm:text-lg font-semibold"
+              >Ver projetos</a
+            >
           </button>
           <button>
-            <a href="" class="sm:text-lg font-semibold p-8 cafe">Cafezinho?</a>
+            <a
+              href="https://wa.me/+551983736528"
+              target="_blank"
+              class="sm:text-lg font-semibold p-8 cafe"
+              >Cafezinho?</a
+            >
           </button>
         </div>
       </section>

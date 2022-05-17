@@ -6,8 +6,8 @@
       <div class="flex items-center space-x-7">
         <nav class="hidden sm:flex">
           <ul class="nav space-x-4 flex font-bold">
-            <li><a href="#" class="p-2">Sobre</a></li>
-            <li><a href="#" class="p-2">Projetos</a></li>
+            <li><a href="#sobreMim" class="p-2">Sobre</a></li>
+            <li><a href="#projetos" class="p-2">Projetos</a></li>
             <li><a href="#" class="p-2">Contato</a></li>
           </ul>
         </nav>

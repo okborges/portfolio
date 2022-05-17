@@ -1,7 +1,9 @@
 <template>
-  <section class="max-w-6xl mx-auto justify-between mt-8 md:flex sm:mt-32">
+  <section class="max-w-6xl mx-auto justify-between pt-8 md:flex sm:pt-32">
     <div class="md:w-1/2 md:pr-6">
-      <h2 class="italico pb-6 text-white text-2xl sm:text-3xl">Sobre mim</h2>
+      <h2 class="italico pb-6 text-white text-2xl sm:text-3xl" id="sobreMim">
+        Sobre mim
+      </h2>
       <p class="pb-6 leading-8 sm:leading-8 sm:text-lg">
         Sou um empreendedor de 24 anos que adora projetar e construir soluções
         de alta qualidade. Você vai amar trabalha comigo, sempre prezo pelo
@@ -10,7 +12,9 @@
       </p>
       <div class="flex items-center">
         <Caveira />
-        <p class="text-base pl-3">Também gosto de praticar esportes radicais.</p>
+        <p class="text-base pl-3">
+          Também gosto de praticar esportes radicais.
+        </p>
       </div>
     </div>
     <div class="pt-8 md:pt-0">

@@ -6,7 +6,11 @@
       <TheFooter />
     </div>
     <div class="laranjinha text-center">
-      <p>Copyright © 2022 okborges. Todos os direitos reservados</p>
+      <p>
+        Copyright © 2022
+        <a href="https://linkedin.com/in/okborges" target="_blank">okborges</a>.
+        Todos os direitos reservados
+      </p>
     </div>
   </div>
 </template>
