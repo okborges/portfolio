@@ -1,9 +1,10 @@
 <template>
-  <section class="max-w-6xl mx-auto justify-between pt-8 md:flex sm:pt-32">
+  <section
+    class="max-w-6xl mx-auto justify-between pt-8 md:flex sm:pt-32"
+    id="sobreMim"
+  >
     <div class="md:w-1/2 md:pr-6">
-      <h2 class="italico pb-6 text-white text-2xl sm:text-3xl" id="sobreMim">
-        Sobre mim
-      </h2>
+      <h2 class="italico pb-6 text-white text-2xl sm:text-3xl">Sobre mim</h2>
       <p class="pb-6 leading-8 sm:leading-8 sm:text-lg">
         Sou um empreendedor de 24 anos que adora projetar e construir soluções
         de alta qualidade. Você vai amar trabalha comigo, sempre prezo pelo

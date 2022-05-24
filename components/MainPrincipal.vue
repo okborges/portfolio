@@ -53,7 +53,7 @@
           alt=""
           width="330"
         />
-        <p class="text-center text-xs italic pt-5">
+        <p class="text-center text-xs italic pt-5 hidden sm:block">
           Não é muito, mas é trabalho honesto
         </p>
       </div>
