@@ -38,7 +38,7 @@
           </button>
           <button>
             <a
-              href="https://wa.me/+551983736528"
+              href="https://wa.me/+5511983736528"
               target="_blank"
               class="sm:text-lg font-semibold p-8 cafe"
               >Cafezinho?</a
