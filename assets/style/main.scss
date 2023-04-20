@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+
 :root {
   --color-g-01: #f7f7f7;
   --color-g-02: #ededed;
@@ -45,8 +48,13 @@
 body {
   background-color: var(--color-g-13);
   color: var(--color-g-01);
+  font-family: 'Jost', sans-serif;
 }
 .conteiner {
   max-width: 1700px;
   padding: 0px 20px;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
 }

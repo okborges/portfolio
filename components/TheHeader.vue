@@ -1,20 +1,37 @@
 <template>
   <header class="py-7">
-    <div class="grid conteiner mx-auto justify-between sm:flex">
-      <img src="../assets/svg/logo.svg" alt="" />
-      <nav>
-        <ul class="flex gap-10">
+    <div class="grid conteiner mx-auto gap-5 md:grid-cols-2">
+      <img src="../assets/svg/logo.svg" alt="logo" class="justify-self-center sm:justify-self-start" />
+      <nav class="justify-self-end">
+        <ul class="flex flex-wrap justify-center gap-10">
           <li><a href="">projetos</a></li>
           <li><a href="">Contato</a></li>
-          <li><div class="detalhe"></div></li>
           <li>
-            <a href=""><img src="../assets/icon/link.svg" alt="" /></a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B5511983736528&text&type=phone_number&app_absent=0"
+              target="_blank"
+              class="cafe rounded-md"
+              >Cafézinho? ☕</a
+            >
+          </li>
+          <li class="hidden sm:block"><div class="detalhe"></div></li>
+          <li>
+            <a href="https://www.linkedin.com/in/okborges/" target="_blank"
+              ><img src="../assets/icon/link.svg" alt="Linkedin Logo"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="../assets/icon/git.svg" alt="" /></a>
+            <a href="https://github.com/okborges" target="_blank"
+              ><img src="../assets/icon/git.svg" alt="Github Logo"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="../assets/icon/wpp.svg" alt="" /></a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B5511983736528&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              <img src="../assets/icon/wpp.svg" alt="WhatasApp Logo" />
+            </a>
           </li>
         </ul>
       </nav>
@@ -23,6 +40,10 @@
 </template>
 
 <style lang="scss" scoped>
+.cafe {
+  background-color: var(--color-p-07);
+  padding: 5px 10px;
+}
 .detalhe {
   width: 2px;
   height: 30px;
