@@ -1,13 +1,7 @@
+<script setup>
+import TheHero from '~/components/TheHero.vue';
+</script>
+
 <template>
-  <div>
-    <h1 class="bg-black">teste</h1>
-  </div>
+  <TheHero />
 </template>
-
-<script setup></script>
-
-<style lang="scss" scoped>
-h1 {
-  color: #fff;
-}
-</style>
