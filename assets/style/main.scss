@@ -1,3 +1,52 @@
+:root {
+  --color-g-01: #f7f7f7;
+  --color-g-02: #ededed;
+  --color-g-03: #dedede;
+  --color-g-04: #cccccc;
+  --color-g-05: #b2b2b2;
+  --color-g-06: #9c9c9c;
+  --color-g-07: #717171;
+  --color-g-08: #595959;
+  --color-g-09: #404040;
+  --color-g-10: #2e2e2e;
+  --color-g-11: #191919;
+  --color-g-13: #0e0e0e;
+  --color-p-01: #ffd8c1;
+  --color-p-02: #ffbf9b;
+  --color-p-03: #ff9f76;
+  --color-p-04: #ff774e;
+  --color-p-05: #f45a33;
+  --color-p-06: #ee441e;
+  --color-p-07: #e12f08;
+  --color-p-08: #ba2402;
+  --color-p-09: #8f1800;
+  --color-p-10: #5f0e00;
+  --color-p-11: #370700;
+  --color-p-12: #210300;
+  --color-s-01: #88f6ef;
+  --color-s-02: #44dcd4;
+  --color-s-03: #27b9b4;
+  --color-s-04: #159c98;
+  --color-s-05: #0d8383;
+  --color-s-06: #046b6b;
+  --color-s-07: #015559;
+  --color-s-08: #084448;
+  --color-s-09: #0a3134;
+  --color-s-10: #0a2123;
+  --color-s-11: #081718;
+  --color-s-12: #060e0f;
+  --color-g-12: #111111;
+}
+
 ::selection {
   background: #f81ce5;
+}
+
+body {
+  background-color: var(--color-g-13);
+  color: var(--color-g-01);
+}
+.conteiner {
+  max-width: 1700px;
+  padding: 0px 20px;
 }

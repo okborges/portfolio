@@ -4,4 +4,5 @@ import TheHero from '~/components/TheHero.vue';
 
 <template>
   <TheHero />
+  <TheHeader />
 </template>

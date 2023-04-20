@@ -1,9 +1,9 @@
 <template>
-  <section class="p-5 bg-black">
-    <div class="grid w-full h-full place-content-center text-center text-white">
-      <h1 class="font-semibold text-8xl pb-7">Desenvolvedor Front End</h1>
-      <h2 class="text-2xl p-4 rounded-2xl justify-self-center">
-        Apaixonado por: Design, Natureza, Esportes radicais, Cultura brasileira, Uma boa fofoca.
+  <section class="p-5">
+    <div class="grid w-full h-full place-content-center text-center">
+      <h1 class="text-5xl font-semibold pb-7 xl:text-8xl">Desenvolvedor Front End</h1>
+      <h2 class="text-base p-4 mx-3 rounded-2xl justify-self-center xl:text-2xl">
+        🧡 Design • Natureza • Esportes radicais • Cultura brasileira • Uma boa fofoca
       </h2>
     </div>
   </section>
