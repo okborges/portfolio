@@ -5,4 +5,7 @@ import TheHero from '~/components/TheHero.vue';
 <template>
   <TheHero />
   <TheHeader />
+  <main class="conteiner">
+    <SectionPrincipal />
+  </main>
 </template>

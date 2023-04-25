@@ -13,6 +13,7 @@
   --color-g-09: #404040;
   --color-g-10: #2e2e2e;
   --color-g-11: #191919;
+  --color-g-12: #111111;
   --color-g-13: #0e0e0e;
   --color-p-01: #ffd8c1;
   --color-p-02: #ffbf9b;
@@ -38,7 +39,9 @@
   --color-s-10: #0a2123;
   --color-s-11: #081718;
   --color-s-12: #060e0f;
-  --color-g-12: #111111;
+
+  --title-fonts: 'Cormorant Garamond', serif;
+  --body-fonts: 'Jost', sans-serif;
 }
 
 ::selection {
@@ -48,13 +51,14 @@
 body {
   background-color: var(--color-g-13);
   color: var(--color-g-01);
-  font-family: 'Jost', sans-serif;
+  font-family: var(--body-fonts);
 }
 .conteiner {
   max-width: 1700px;
   padding: 0px 20px;
+  margin: 0px auto;
 }
 
 h1 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--title-fonts);
 }

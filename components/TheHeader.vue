@@ -1,10 +1,13 @@
 <template>
-  <header class="py-7">
-    <div class="grid conteiner mx-auto gap-5 md:grid-cols-2">
-      <img src="../assets/svg/logo.svg" alt="logo" class="justify-self-center sm:justify-self-start" />
+  <header class="py-8">
+    <div class="grid conteiner gap-5">
+      <a href="/" class="logo justify-self-center sm:justify-self-start">
+        <img src="../assets/svg/logo.svg" alt="logo" />
+      </a>
+
       <nav class="justify-self-end">
-        <ul class="flex flex-wrap justify-center gap-10">
-          <li><a href="">projetos</a></li>
+        <ul class="flex flex-wrap justify-center gap-8 md:gap-10">
+          <li><a href="">Projetos</a></li>
           <li><a href="">Contato</a></li>
           <li>
             <a
@@ -16,14 +19,14 @@
           </li>
           <li class="hidden sm:block"><div class="detalhe"></div></li>
           <li>
-            <a href="https://www.linkedin.com/in/okborges/" target="_blank"
-              ><img src="../assets/icon/link.svg" alt="Linkedin Logo"
-            /></a>
+            <a href="https://www.linkedin.com/in/okborges/" target="_blank">
+              <img src="../assets/icon/link.svg" alt="Linkedin Logo" />
+            </a>
           </li>
           <li>
-            <a href="https://github.com/okborges" target="_blank"
-              ><img src="../assets/icon/git.svg" alt="Github Logo"
-            /></a>
+            <a href="https://github.com/okborges" target="_blank">
+              <img src="../assets/icon/git.svg" alt="Github Logo" />
+            </a>
           </li>
           <li>
             <a
@@ -40,6 +43,9 @@
 </template>
 
 <style lang="scss" scoped>
+.conteiner {
+  grid-template-columns: 1fr 3fr;
+}
 .cafe {
   background-color: var(--color-p-07);
   padding: 5px 10px;
@@ -48,5 +54,18 @@
   width: 2px;
   height: 30px;
   background-color: var(--color-s-03);
+}
+a {
+  font-size: 20px;
+}
+
+.logo {
+  width: fit-content;
+}
+
+@media screen and (max-width: 1100px) {
+  .conteiner {
+    grid-template-columns: none;
+  }
 }
 </style>
