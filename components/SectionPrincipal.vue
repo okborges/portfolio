@@ -1,5 +1,7 @@
+<script setup></script>
+
 <template>
-  <section class="gap-5">
+  <section class="gap-5 mx-auto">
     <div>
       <div class="mb-6 sobre">
         <h1>Sobre mim</h1>
@@ -26,7 +28,7 @@
           <li>HTML</li>
           <li>CSS</li>
           <li>GIT</li>
-          <li>Flutter</li>
+          <li>React</li>
           <li>
             MARRETA
             <span>(Caso nenhuma das anteriores funcione)</span>
@@ -43,6 +45,7 @@
 section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1400px;
   .sobre {
     text-align: left;
     .radical {
@@ -57,7 +60,7 @@ section {
     font-size: clamp(2rem, 4vw, 3rem);
   }
   .perfil {
-    width: 560px;
+    width: 600px;
     border-radius: 45px;
     justify-self: end;
   }
@@ -80,7 +83,7 @@ section {
     .sobre {
       text-align: center;
       .radical {
-        justify-content: center ;
+        justify-content: center;
       }
     }
     .perfil {
