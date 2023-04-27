@@ -1,41 +1,33 @@
-<template>
-  <li>
-    <div class="d1"></div>
-    <div class="d2"></div>
-    <div class="p-4">textooo</div>
-  </li>
-</template>
-
 <script setup>
 defineProps({
-  d1: String,
-  d2: String,
+  bg: String,
+  title: String,
 });
 </script>
+
+<template>
+  <li>
+    <div class="bg"></div>
+    <p>{{ title }}</p>
+  </li>
+</template>
 
 <style lang="scss" scoped>
 li {
   border-radius: 8px;
   text-align: center;
   position: relative;
-  .d2 {
+  .bg {
     position: absolute;
-    width: 20%;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
+    inset: 0;
+    border-radius: 8px;
+    background: v-bind('bg');
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.25s linear;
   }
-}
-li:hover .d1::before {
-  content: 'aaaaaa';
-  width: 20%;
-  height: 20%;
-  background-color: v-bind('d1');
-}
-li:hover .d2::before {
-  content: 'bbbbbbbb';
-  width: 20%;
-  height: 20%;
-  background-color: v-bind('d2');
+  .bg:hover {
+    opacity: 1;
+  }
 }
 </style>
