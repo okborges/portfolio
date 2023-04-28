@@ -56,7 +56,7 @@ const techs = [
 </script>
 
 <template>
-  <section class="gap-5 mx-auto">
+  <section class="gap-5">
     <div>
       <div class="mb-6 sobre">
         <h1>Sobre mim</h1>
@@ -75,8 +75,10 @@ const techs = [
         <h2 class="mb-4">Tenho experiência com</h2>
         <ul class="gap-5 max-w-lg">
           <TechCards v-for="item in techs" :key="item.nome" :bg="item.bg" :title="item.nome" />
-          <li>
-            MARRETA
+
+          <li class="marreta">
+            <div class="bg"></div>
+            <p>MARRETA</p>
             <span>(Caso nenhuma das anteriores funcione)</span>
           </li>
         </ul>
@@ -92,6 +94,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1400px;
+  margin: 0px auto 40px;
   .sobre {
     text-align: left;
     .radical {
@@ -119,6 +122,35 @@ section {
         border-radius: 8px;
         text-align: center;
         padding: 14px;
+      }
+      .marreta {
+        display: grid;
+        width: max-content;
+        grid-column: span 2;
+        margin: auto;
+        padding: 14px 30px;
+        position: relative;
+        span {
+          font-size: 12px;
+        }
+        .bg {
+          position: absolute;
+          inset: 0;
+          border-radius: 8px;
+          background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(65, 184, 131, 0) 30%,
+            rgba(65, 184, 131, 0) 70%,
+            rgba(255, 255, 255, 0.3) 100%
+          );
+          z-index: 1;
+          opacity: 0;
+          transition: opacity 0.25s linear;
+        }
+        .bg:hover {
+          opacity: 1;
+        }
       }
     }
   }

@@ -7,8 +7,8 @@
 
       <nav class="justify-self-end">
         <ul class="flex flex-wrap justify-center gap-8 md:gap-10">
-          <li><a href="">Projetos</a></li>
-          <li><a href="">Contato</a></li>
+          <!-- <li><a href="">Projetos</a></li>
+          <li><a href="">Contato</a></li> -->
           <li>
             <a
               href="https://api.whatsapp.com/send/?phone=%2B5511983736528&text&type=phone_number&app_absent=0"
