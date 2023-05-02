@@ -1,6 +1,6 @@
 <template>
   <header class="py-8">
-    <div class="grid conteiner gap-5">
+    <div class="conteiner grid gap-5">
       <a href="/" class="logo justify-self-center sm:justify-self-start">
         <img src="../assets/svg/logo.svg" alt="logo" />
       </a>

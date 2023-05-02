@@ -58,23 +58,29 @@ const techs = [
 <template>
   <section class="gap-5">
     <div>
-      <div class="mb-6 sobre">
+      <div class="sobre mb-6">
         <h1>Sobre mim</h1>
-        <p class="text-xl max-w-xl mb-7">
-          Sou um empreendedor de 25 anos que adora projetar e construir soluções de alta qualidade. Você vai amar
-          trabalha comigo, sempre prezo pelo ótimo atendimento, qualidade de entrega a nível profissional e uma
+        <p class="mb-7 max-w-xl text-xl">
+          Sou um empreendedor de 25 anos que adora projetar e construir soluções
+          de alta qualidade. Você vai amar trabalha comigo, sempre prezo pelo
+          ótimo atendimento, qualidade de entrega a nível profissional e uma
           excepcional relação com o cliente.
         </p>
-        <div class="flex items-center gap-5 radical">
+        <div class="radical flex items-center gap-5">
           <img src="../assets/icon/caveira.svg" alt="" />
           <p>Também gosto de praticar esportes radicais.</p>
         </div>
       </div>
 
-      <div class="grid xp">
+      <div class="xp grid">
         <h2 class="mb-4">Tenho experiência com</h2>
-        <ul class="gap-5 max-w-lg">
-          <TechCards v-for="item in techs" :key="item.nome" :bg="item.bg" :title="item.nome" />
+        <ul class="max-w-lg gap-5">
+          <TechCards
+            v-for="item in techs"
+            :key="item.nome"
+            :bg="item.bg"
+            :title="item.nome"
+          />
 
           <li class="marreta">
             <div class="bg"></div>
