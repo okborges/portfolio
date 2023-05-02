@@ -2,11 +2,8 @@
   <section class="p-5">
     <div class="grid h-full w-full place-content-center text-center">
       <h1 class="pb-7">Desenvolvedor Front End</h1>
-      <h2
-        class="mx-3 justify-self-center rounded-2xl p-4 text-base xl:text-2xl"
-      >
-        🧡 Design • Natureza • Esportes radicais • Cultura brasileira • Uma boa
-        fofoca
+      <h2 class="mx-3 justify-self-center rounded-2xl p-4 text-base xl:text-2xl">
+        🧡 Design • Natureza • Esportes radicais • Cultura brasileira • Uma boa fofoca
       </h2>
     </div>
   </section>

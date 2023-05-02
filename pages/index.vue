@@ -1,5 +1,7 @@
 <script setup>
 import TheHero from '~/components/TheHero.vue';
+import TheHeader from '~/components/TheHeader.vue';
+import SectionPrincipal from '~/components/SectionPrincipal.vue';
 </script>
 
 <template>
@@ -9,3 +11,5 @@ import TheHero from '~/components/TheHero.vue';
     <SectionPrincipal />
   </main>
 </template>
+
+<style lang="scss" scoped></style>
