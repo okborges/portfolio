@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
   bg: String,
-  title: String,
+  title: String
 });
 </script>
 
@@ -29,5 +29,8 @@ li {
   .bg:hover {
     opacity: 1;
   }
+}
+li:hover {
+  box-shadow: 0 7px 32px -2px rgba(0, 0, 0, 0.68);
 }
 </style>

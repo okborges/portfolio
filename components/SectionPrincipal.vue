@@ -112,6 +112,7 @@ section {
     width: 600px;
     border-radius: 45px;
     justify-self: end;
+    box-shadow: 0 7px 32px -2px rgba(0, 0, 0, 0.68);
   }
   .xp {
     ul {
@@ -151,6 +152,9 @@ section {
         .bg:hover {
           opacity: 1;
         }
+      }
+      .marreta:hover {
+        box-shadow: 0 7px 32px -2px rgba(0, 0, 0, 0.68);
       }
     }
   }
