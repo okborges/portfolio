@@ -14,13 +14,13 @@ defineProps({
 
 <style lang="scss" scoped>
 li {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   text-align: center;
   position: relative;
   .bg {
     position: absolute;
     inset: 0;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: v-bind('bg');
     z-index: 1;
     opacity: 0;
@@ -31,6 +31,6 @@ li {
   }
 }
 li:hover {
-  box-shadow: 0 7px 32px -2px rgba(0, 0, 0, 0.68);
+  box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
 }
 </style>

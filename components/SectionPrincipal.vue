@@ -93,8 +93,8 @@ const techs = [
 section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1400px;
-  margin: 0px auto 40px;
+  max-width: 87.5rem;
+  margin: 0rem auto 2.5rem;
   .sobre {
     text-align: left;
     .radical {
@@ -109,10 +109,10 @@ section {
     font-size: clamp(2rem, 4vw, 3rem);
   }
   .perfil {
-    width: 600px;
-    border-radius: 45px;
+    width: 37.5rem;
+    border-radius: 2.8125rem;
     justify-self: end;
-    box-shadow: 0 7px 32px -2px rgba(0, 0, 0, 0.68);
+    box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
   }
   .xp {
     ul {
@@ -120,24 +120,24 @@ section {
       grid-template-columns: 1fr 1fr;
       li {
         background-color: var(--color-g-11);
-        border-radius: 8px;
+        border-radius: 0.5rem;
         text-align: center;
-        padding: 14px;
+        padding: 0.875rem;
       }
       .marreta {
         display: grid;
         width: max-content;
         grid-column: span 2;
         margin: auto;
-        padding: 14px 30px;
+        padding: 0.875rem 1.875rem;
         position: relative;
         span {
-          font-size: 12px;
+          font-size: 0.75rem;
         }
         .bg {
           position: absolute;
           inset: 0;
-          border-radius: 8px;
+          border-radius: 0.5rem;
           background: linear-gradient(
             90deg,
             rgba(255, 255, 255, 0.3) 0%,
@@ -154,12 +154,12 @@ section {
         }
       }
       .marreta:hover {
-        box-shadow: 0 7px 32px -2px rgba(0, 0, 0, 0.68);
+        box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
       }
     }
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 43.75rem) {
   section {
     grid-template-columns: none;
     .sobre {
@@ -170,10 +170,10 @@ section {
     }
     .perfil {
       width: 100%;
-      height: 200px;
+      height: 12.5rem;
       object-fit: cover;
       justify-self: center;
-      border-radius: 22px;
+      border-radius: 1.375rem;
     }
 
     .xp {

@@ -17,7 +17,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 45px;
+    border-radius: 2.8125rem;
 
     h1 {
       font-size: clamp(3rem, 8vw, 9rem);

@@ -48,22 +48,22 @@
 }
 .cafe {
   background-color: var(--color-p-07);
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
 }
 .detalhe {
-  width: 2px;
-  height: 30px;
+  width: 0.125rem;
+  height: 1.875rem;
   background-color: var(--color-s-03);
 }
 a {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .logo {
   width: fit-content;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 68.75rem) {
   .conteiner {
     grid-template-columns: none;
   }
