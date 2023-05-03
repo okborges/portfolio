@@ -18,6 +18,7 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 2.8125rem;
+    background-attachment: fixed;
 
     h1 {
       font-size: clamp(3rem, 8vw, 9rem);
