@@ -48,6 +48,22 @@
   background: #f81ce5;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-p-06);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-p-08);
+}
+
 body {
   background-color: var(--color-g-13);
   color: var(--color-g-01);
