@@ -2,7 +2,7 @@
   <header class="py-8">
     <div class="conteiner grid gap-5">
       <a href="/" class="logo justify-self-center sm:justify-self-start">
-        <img src="../assets/svg/logo.svg" alt="logo" />
+        <img src="../assets/svg/logo.svg" alt="logo image" />
       </a>
 
       <nav class="justify-self-end">
@@ -49,6 +49,10 @@
 .cafe {
   background-color: var(--color-p-07);
   padding: 0.3125rem 0.625rem;
+  transition: 0.2s;
+}
+.cafe:hover {
+  background-color: var(--color-p-08);
 }
 .detalhe {
   width: 0.125rem;

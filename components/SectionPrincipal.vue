@@ -56,130 +56,145 @@ const techs = [
 </script>
 
 <template>
-  <section class="gap-5">
-    <div>
-      <div class="sobre mb-6">
-        <h1>Sobre mim</h1>
-        <p class="mb-7 max-w-xl text-xl">
-          Sou um empreendedor de 25 anos que adora projetar e construir soluções de alta qualidade.
-          Você vai amar trabalha comigo, sempre prezo pelo ótimo atendimento, qualidade de entrega a
-          nível profissional e uma excepcional relação com o cliente.
-        </p>
-        <div class="radical flex items-center gap-5">
-          <img src="../assets/icon/caveira.svg" alt="" />
-          <p>Também gosto de praticar esportes radicais.</p>
+  <section>
+    <div class="estrelas gap-5">
+      <div>
+        <div class="sobre mb-6">
+          <h1>Sobre mim</h1>
+          <p class="mb-7 max-w-xl text-xl">
+            Sou um empreendedor de 25 anos que adora projetar e construir soluções de alta
+            qualidade. Você vai amar trabalha comigo, sempre prezo pelo ótimo atendimento, qualidade
+            de entrega a nível profissional e uma excepcional relação com o cliente.
+          </p>
+          <div class="radical flex items-center gap-5">
+            <img src="../assets/icon/caveira.svg" alt="" />
+            <p>Também gosto de praticar esportes radicais.</p>
+          </div>
+        </div>
+
+        <div class="xp grid">
+          <h2 class="mb-4">Tenho experiência com</h2>
+          <ul class="max-w-lg gap-5">
+            <TechCards v-for="item in techs" :key="item.nome" :bg="item.bg" :title="item.nome" />
+
+            <li class="marreta">
+              <div class="bg"></div>
+              <p>MARRETA</p>
+              <span>(Caso nenhuma das anteriores funcione)</span>
+            </li>
+          </ul>
         </div>
       </div>
 
-      <div class="xp grid">
-        <h2 class="mb-4">Tenho experiência com</h2>
-        <ul class="max-w-lg gap-5">
-          <TechCards v-for="item in techs" :key="item.nome" :bg="item.bg" :title="item.nome" />
-
-          <li class="marreta">
-            <div class="bg"></div>
-            <p>MARRETA</p>
-            <span>(Caso nenhuma das anteriores funcione)</span>
-          </li>
-        </ul>
-      </div>
+      <img src="../assets/img/perfil_2.webp" alt="" class="perfil" />
     </div>
-
-    <img src="../assets/img/perfil_2.webp" alt="" class="perfil" />
   </section>
 </template>
 
 <style lang="scss" scoped>
 section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 87.5rem;
-  margin: 0rem auto 2.5rem;
-  .sobre {
-    text-align: left;
-    .radical {
-      justify-content: left;
+  background-image: url(../assets/svg/estrelas.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  .estrelas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 87.5rem;
+    margin: 0rem auto 2.5rem;
+
+    .sobre {
+      text-align: left;
+      .radical {
+        justify-content: left;
+      }
     }
-  }
-  h1 {
-    font-family: var(--body-fonts);
-    font-size: clamp(3rem, 9vw, 6rem);
-  }
-  h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
-  }
-  .perfil {
-    width: 37.5rem;
-    border-radius: 2.8125rem;
-    justify-self: end;
-    box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
-  }
-  .xp {
-    ul {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      li {
-        background-color: var(--color-g-11);
-        border-radius: 0.5rem;
-        text-align: center;
-        padding: 0.875rem;
-      }
-      .marreta {
+    h1 {
+      font-family: var(--body-fonts);
+      font-size: clamp(3rem, 9vw, 6rem);
+    }
+    h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+    .perfil {
+      width: 37.5rem;
+      border-radius: 2.8125rem;
+      justify-self: end;
+      box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
+    }
+    .xp {
+      ul {
         display: grid;
-        width: max-content;
-        grid-column: span 2;
-        margin: auto;
-        padding: 0.875rem 1.875rem;
-        position: relative;
-        span {
-          font-size: 0.75rem;
-        }
-        .bg {
-          position: absolute;
-          inset: 0;
+        grid-template-columns: 1fr 1fr;
+        li {
+          background-color: var(--color-g-11);
           border-radius: 0.5rem;
-          background: linear-gradient(
-            90deg,
-            rgba(255, 255, 255, 0.3) 0%,
-            rgba(65, 184, 131, 0) 30%,
-            rgba(65, 184, 131, 0) 70%,
-            rgba(255, 255, 255, 0.3) 100%
-          );
-          z-index: 1;
-          opacity: 0;
-          transition: opacity 0.25s linear;
+          text-align: center;
+          padding: 0.875rem;
+          transition: all 0.3s ease 0s;
         }
-        .bg:hover {
-          opacity: 1;
+        li:hover {
+          transform: scale(1.1);
+          rotate: (1deg);
         }
-      }
-      .marreta:hover {
-        box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
+        .marreta {
+          display: grid;
+          width: max-content;
+          grid-column: span 2;
+          margin: auto;
+          padding: 0.875rem 1.875rem;
+          position: relative;
+          span {
+            font-size: 0.75rem;
+          }
+          .bg {
+            position: absolute;
+            inset: 0;
+            border-radius: 0.5rem;
+            background: linear-gradient(
+              90deg,
+              rgba(255, 255, 255, 0.3) 0%,
+              rgba(65, 184, 131, 0) 30%,
+              rgba(65, 184, 131, 0) 70%,
+              rgba(255, 255, 255, 0.3) 100%
+            );
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.25s linear;
+          }
+          .bg:hover {
+            opacity: 1;
+          }
+        }
+        .marreta:hover {
+          box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
+        }
       }
     }
   }
 }
 @media screen and (max-width: 43.75rem) {
   section {
-    grid-template-columns: none;
-    .sobre {
-      text-align: center;
-      .radical {
-        justify-content: center;
-      }
-    }
-    .perfil {
-      width: 100%;
-      height: 12.5rem;
-      object-fit: cover;
-      justify-self: center;
-      border-radius: 1.375rem;
-    }
-
-    .xp {
-      justify-content: center;
-      h2 {
+    .estrelas {
+      grid-template-columns: none;
+      .sobre {
         text-align: center;
+        .radical {
+          justify-content: center;
+        }
+      }
+      .perfil {
+        width: 100%;
+        height: 12.5rem;
+        object-fit: cover;
+        justify-self: center;
+        border-radius: 1.375rem;
+      }
+
+      .xp {
+        justify-content: center;
+        h2 {
+          text-align: center;
+        }
       }
     }
   }
