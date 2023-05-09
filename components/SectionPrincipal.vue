@@ -82,11 +82,15 @@ const techs = [
               <p>MARRETA</p>
               <span>(Caso nenhuma das anteriores funcione)</span>
             </li>
+            <span class="col-span-2 mx-auto">Não é muito mas é trabalho honesto.</span>
           </ul>
         </div>
       </div>
 
-      <img src="../assets/img/perfil_2.webp" alt="" class="perfil" />
+      <div class="profile_pic">
+        <img src="../assets/img/perfil_2.webp" alt="" />
+      </div>
+      <img src="../assets/img/perfil_2.webp" alt="" class="profile_mobile" />
     </div>
   </section>
 </template>
@@ -108,6 +112,25 @@ section {
         justify-content: left;
       }
     }
+
+    .profile_pic {
+      justify-self: end;
+      max-width: 37.5rem;
+      height: fit-content;
+      border-radius: 2.8125rem;
+      overflow: hidden;
+      box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
+      img {
+        width: 100%;
+        transition: all 0.3s ease;
+      }
+      img:hover {
+        transform: scale(1.1);
+      }
+    }
+    .profile_mobile {
+      display: none;
+    }
     h1 {
       font-family: var(--body-fonts);
       font-size: clamp(3rem, 9vw, 6rem);
@@ -115,12 +138,7 @@ section {
     h2 {
       font-size: clamp(2rem, 4vw, 3rem);
     }
-    .perfil {
-      width: 37.5rem;
-      border-radius: 2.8125rem;
-      justify-self: end;
-      box-shadow: 0 0.4375rem 2rem -0.125rem rgba(0, 0, 0, 0.68);
-    }
+
     .xp {
       ul {
         display: grid;
@@ -182,7 +200,11 @@ section {
           justify-content: center;
         }
       }
-      .perfil {
+      .profile_pic {
+        display: none;
+      }
+      .profile_mobile {
+        display: block;
         width: 100%;
         height: 12.5rem;
         object-fit: cover;

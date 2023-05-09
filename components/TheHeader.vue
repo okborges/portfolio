@@ -5,7 +5,7 @@
         <img src="../assets/svg/logo.svg" alt="logo image" />
       </a>
 
-      <nav class="justify-self-end">
+      <nav class="justify-self-center sm:justify-self-end">
         <ul class="flex flex-wrap justify-center gap-8 md:gap-10">
           <!-- <li><a href="">Projetos</a></li>
           <li><a href="">Contato</a></li> -->
