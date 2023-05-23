@@ -8,14 +8,14 @@ import techs from '~/store';
     <div class="estrelas gap-5">
       <div>
         <div class="sobre mb-6">
-          <h1>Sobre mim</h1>
-          <p class="mb-7 max-w-xl text-xl">
+          <h2 class="title">Sobre mim</h2>
+          <h3 class="mb-7 max-w-xl text-xl">
             Sou um empreendedor de 25 anos que adora projetar e construir soluções de alta
             qualidade. Você vai amar trabalha comigo, sempre prezo pelo ótimo atendimento, qualidade
             de entrega a nível profissional e uma excepcional relação com o cliente.
-          </p>
+          </h3>
           <div class="radical flex items-center gap-5">
-            <img src="../assets/icon/caveira.svg" alt="" />
+            <img src="../assets/icon/caveira.svg" alt="ilustração de caveira" width="32" />
             <p>Também gosto de praticar esportes radicais.</p>
           </div>
         </div>
@@ -30,15 +30,23 @@ import techs from '~/store';
               <p>MARRETA</p>
               <span>(Caso nenhuma das anteriores funcione)</span>
             </li>
-            <span class="col-span-2 mx-auto">Não é muito mas é trabalho honesto.</span>
           </ul>
+        </div>
+
+        <div class="ajuste mt-5 flex">
+          <span class="mx-auto">Não é muito mas é trabalho honesto.</span>
         </div>
       </div>
 
       <div class="profile_pic">
-        <img src="../assets/img/perfil_2.webp" alt="" />
+        <img src="../assets/img/perfil_2.webp" alt="Foto do okborges" width="600" />
       </div>
-      <img src="../assets/img/perfil_2.webp" alt="" class="profile_mobile" />
+      <img
+        src="../assets/img/perfil_2.webp"
+        alt="Foto do okborges"
+        width="600"
+        class="profile_mobile"
+      />
     </div>
   </section>
 </template>
@@ -79,7 +87,7 @@ section {
     .profile_mobile {
       display: none;
     }
-    h1 {
+    .title {
       font-family: var(--body-fonts);
       font-size: clamp(3rem, 9vw, 6rem);
     }
@@ -136,6 +144,10 @@ section {
         }
       }
     }
+
+    .ajuste {
+      max-width: 512px;
+    }
   }
 }
 @media screen and (max-width: 43.75rem) {
@@ -165,6 +177,9 @@ section {
         h2 {
           text-align: center;
         }
+      }
+      .ajuste {
+        max-width: none;
       }
     }
   }

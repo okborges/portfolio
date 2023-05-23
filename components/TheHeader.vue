@@ -2,7 +2,7 @@
   <header class="py-8">
     <div class="conteiner grid gap-5">
       <a href="/" class="logo justify-self-center sm:justify-self-start">
-        <img src="../assets/svg/logo.svg" alt="logo image" />
+        <img src="../assets/svg/logo.svg" alt="logo do site okborges" width="255" />
       </a>
 
       <nav class="justify-self-center sm:justify-self-end">
@@ -20,12 +20,12 @@
           <li class="hidden sm:block"><div class="detalhe"></div></li>
           <li>
             <a href="https://www.linkedin.com/in/okborges/" target="_blank">
-              <img src="../assets/icon/link.svg" alt="Linkedin Logo" />
+              <img src="../assets/icon/link.svg" alt="Linkedin Logo" width="29" />
             </a>
           </li>
           <li>
             <a href="https://github.com/okborges" target="_blank">
-              <img src="../assets/icon/git.svg" alt="Github Logo" />
+              <img src="../assets/icon/git.svg" alt="Github Logo" width="31" />
             </a>
           </li>
           <li>
@@ -33,7 +33,7 @@
               href="https://api.whatsapp.com/send/?phone=%2B5511983736528&text&type=phone_number&app_absent=0"
               target="_blank"
             >
-              <img src="../assets/icon/wpp.svg" alt="WhatasApp Logo" />
+              <img src="../assets/icon/wpp.svg" alt="WhatasApp Logo" width="29" />
             </a>
           </li>
         </ul>

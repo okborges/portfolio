@@ -2,9 +2,9 @@
   <section class="p-5">
     <div class="grid h-full w-full place-content-center text-center">
       <h1 class="pb-7">Desenvolvedor Front End</h1>
-      <h2 class="mx-3 justify-self-center rounded-2xl p-4 text-base xl:text-2xl">
+      <span class="mx-3 justify-self-center rounded-2xl p-4 text-base xl:text-2xl">
         🧡 Design • Natureza • Esportes radicais • Cultura brasileira • Uma boa fofoca
-      </h2>
+      </span>
     </div>
   </section>
 </template>
@@ -24,11 +24,11 @@ section {
       font-size: clamp(3rem, 8vw, 9rem);
     }
 
-    h2 {
+    span {
       background-color: rgb(0 0 0 / 0.7);
       transition: 0.2s;
     }
-    h2:hover {
+    span:hover {
       background-color: rgb(0 0 0 / 1);
     }
   }
