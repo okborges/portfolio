@@ -20,12 +20,12 @@
           <li class="hidden sm:block"><div class="detalhe"></div></li>
           <li>
             <a href="https://www.linkedin.com/in/okborges/" target="_blank">
-              <img src="../assets/icon/link.svg" alt="Linkedin Logo" width="29" />
+              <img src="../assets/icon/link.svg" alt="Linkedin Logo do okborges" width="29" />
             </a>
           </li>
           <li>
             <a href="https://github.com/okborges" target="_blank">
-              <img src="../assets/icon/git.svg" alt="Github Logo" width="31" />
+              <img src="../assets/icon/git.svg" alt="Github Logo do okborges" width="31" />
             </a>
           </li>
           <li>
@@ -33,7 +33,7 @@
               href="https://api.whatsapp.com/send/?phone=%2B5511983736528&text&type=phone_number&app_absent=0"
               target="_blank"
             >
-              <img src="../assets/icon/wpp.svg" alt="WhatasApp Logo" width="29" />
+              <img src="../assets/icon/wpp.svg" alt="WhatasApp Logo do okborges" width="29" />
             </a>
           </li>
         </ul>
