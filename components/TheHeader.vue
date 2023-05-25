@@ -6,14 +6,14 @@
       </a>
 
       <nav class="justify-self-center sm:justify-self-end">
-        <ul class="flex flex-wrap justify-center gap-8 md:gap-10">
+        <ul class="flex justify-center gap-8 md:gap-10">
           <!-- <li><a href="">Projetos</a></li>
           <li><a href="">Contato</a></li> -->
           <li>
             <a
               href="https://api.whatsapp.com/send/?phone=%2B5511983736528&text&type=phone_number&app_absent=0"
               target="_blank"
-              class="cafe rounded-md"
+              class="cafe hidden rounded-md lg:inline-block"
               >Cafézinho? ☕</a
             >
           </li>
@@ -67,9 +67,9 @@ a {
   width: fit-content;
 }
 
-@media screen and (max-width: 68.75rem) {
+@media screen and (max-width: 1024px) {
   .conteiner {
-    grid-template-columns: none;
+    grid-template-columns: 1fr 1fr;
   }
 }
 </style>

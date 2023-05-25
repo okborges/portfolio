@@ -10,9 +10,12 @@ import techs from '~/store';
         <div class="sobre mb-6">
           <h2 class="title">Sobre mim</h2>
           <h3 class="mb-7 max-w-xl text-xl">
-            Sou um empreendedor de 25 anos que adora projetar e construir soluções de alta
-            qualidade. Você vai amar trabalha comigo, sempre prezo pelo ótimo atendimento, qualidade
-            de entrega a nível profissional e uma excepcional relação com o cliente.
+            Meu nome é Rafael Borges.<br />
+            Sou um desenvolvedor Front-end criativo que adora projetar e construir soluções de alta
+            qualidade. Minha abordagem é dinâmica e leve, me esforço para criar sites incríveis e
+            emocionantes.<br />
+            Acima de tudo, prezo para que meus clientes tenham uma boa experiência e um ótimo
+            atendimento.
           </h3>
           <div class="radical flex items-center gap-5">
             <img src="../assets/icon/caveira.svg" alt="ilustração de caveira" width="32" />
